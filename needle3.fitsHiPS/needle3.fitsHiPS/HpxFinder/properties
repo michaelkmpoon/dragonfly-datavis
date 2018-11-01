@@ -1,0 +1,14 @@
+creator_did          = ivo://UNK.AUTH/C/needle3.fits/meta
+obs_title            = needle3.fits-meta
+dataproduct_type     = meta
+hips_frame           = equatorial
+hips_order           = 6
+hips_order_min       = 0
+hips_release_date    = 2018-11-01T07:12Z
+hips_version         = 1.4
+hips_builder         = Aladin/HipsGen v10.093
+#____FOR_COMPATIBILITY_WITH_OLD_HIPS_CLIENTS____
+label                = needle3.fits-meta
+coordsys             = C
+maxOrder             = 6
+hips_tile_width      = 512
