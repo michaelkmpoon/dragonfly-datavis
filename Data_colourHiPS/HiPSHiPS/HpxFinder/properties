@@ -1,0 +1,13 @@
+creator_did          = ivo://UNK.AUTH/P/HiPS/meta
+obs_title            = HiPS-meta
+dataproduct_type     = meta
+hips_frame           = equatorial
+hips_order           = 8
+hips_release_date    = 2018-12-14T00:38Z
+hips_version         = 1.4
+hips_builder         = Aladin/HipsGen v10.093
+#____FOR_COMPATIBILITY_WITH_OLD_HIPS_CLIENTS____
+label                = HiPS-meta
+coordsys             = C
+maxOrder             = 8
+hips_tile_width      = 512
