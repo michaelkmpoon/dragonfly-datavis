@@ -18,7 +18,9 @@
         <script type="text/javascript" src="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
         <script type="text/javascript">
             var aladin = A.aladin('#aladin-lite-div', {survey: "P/SDSS9/color", fov:1, target: "NGC4565"});
-            aladin.setImageSurvey(aladin.createImageSurvey("Dragonfly", "Dragonfly", "https://dragonflydatavis.azurewebsites.net/4image_colourHiPS/UNK.AUTH_P_4image_colour/", 'equatorial', 8, {imgFormat: 'png'}));
+            aladin.setImageSurvey(aladin.createImageSurvey("Dragonfly", "Dragonfly", "/Data_colourHiPS/HiPSHiPS", 'equatorial', 8, {imgFormat: 'png'}));
+            aladin.setImageSurvey(aladin.createImageSurvey("Dragonfly G Band", "Dragonfly G Band", "/Data_GHiPS/Data_GHiPS", 'equatorial', 5, {imgFormat: 'png'}));
+            aladin.setImageSurvey(aladin.createImageSurvey("Dragonfly R Band", "Dragonfly R Band", "/Data_RHiPS/Data_RHiPS", 'equatorial', 5, {imgFormat: 'png'}));        
         </script>
         <div class="sidebar"></div>
     </body>
